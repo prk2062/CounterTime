@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+}
+
+body {
+  text-align: center;
+  background: url(eRwDMy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 30px !important;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 195px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.btnThird {
+  margin: 0px 0px 10px 0px;
+}
+
+.counter {
+  margin: 30px;
+}
+
+.Box {
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 25px;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  transform: translateY(19px);
+  padding: 10px 0px;
+}
+
+.letter {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.saveBtn {
+  width: 210px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: green;
+}
+.saveBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.delBtn {
+  width: 210px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 19px;
+  background-color: black;
+  color: white;
+}
+.delBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.entry {
+  margin-bottom: 15px;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
